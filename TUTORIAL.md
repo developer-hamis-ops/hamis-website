@@ -94,3 +94,19 @@ For normal static hosting, upload these files and folders together:
 
 Keep the folder paths the same so images and the catalogue link continue to
 work.
+
+## Hosting On GitHub Pages
+
+This website can run directly from GitHub Pages because it is a static site:
+HTML, CSS, JavaScript, images, and one PDF catalogue.
+
+GitHub Pages is configured to publish from:
+
+```text
+Branch: main
+Folder: /
+```
+
+The `.nojekyll` file tells GitHub Pages to serve the files exactly as they are,
+without trying to process the site through Jekyll. That is useful for simple
+static websites like this one.
