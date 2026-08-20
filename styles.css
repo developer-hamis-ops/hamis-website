@@ -898,7 +898,7 @@ a {
 
   .header-cta {
     min-height: 40px;
-    padding: 0 12px;
+    padding: 2px 12px 0;
     font-size: 0.82rem;
     border-radius: 5px;
   }
