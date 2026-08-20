@@ -50,6 +50,10 @@ On mobile, the header becomes two rows: logo and call button on top, navigation
 buttons below. The hero stacks into text first and catalogue image second. Cards
 switch into a single column so product names and buttons stay readable.
 
+The `Call Sales` header button uses `inline-flex` with `align-items: center`.
+That keeps the text vertically centered on mobile, even when the button height
+changes in smaller breakpoints.
+
 ## How To Edit Content
 
 To change a heading or paragraph, edit the text directly in `index.html`.
